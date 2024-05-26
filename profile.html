@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile page SocialMedia</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <a href="index.html"> <img class="logo" src="./images/logo.png" alt="logo" /></a>
+        <ul>
+          <li><img src="images/notification.png" alt="" /></li>
+          <li><img src="images/inbox.png" alt="" /></li>
+          <li><img src="images/video.png" alt="" /></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="images/search.png" alt="" />
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="images/profile-pic.png" alt="" />
+        </div>
+      </div>
+      <!-- settings-menu -->
+
+      <div class="settings-menu">
+        <div id="dark-btn">
+          <span></span>
+        </div>
+
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="./images/profile-pic.png" alt="" />
+            <div>
+              <p>Alixe Mixian</p>
+              <a href="profile.html">See your profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user-profile">
+            <img src="./images/feedback.png" alt="" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="#">Help us to improve the new design</a>
+            </div>
+          </div>
+          <hr />
+          <div class="settings-links">
+            <img src="./images/setting.png" class="settings-icon" />
+            <a href="#"
+              >Settings & Privacy <img src="./images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <img src="./images/help.png" class="settings-icon" />
+            <a href="#">
+              Help & Support <img src="./images/arrow.png" width="10px"
+            /></a>
+          </div>
+          <div class="settings-links">
+            <img src="./images/display.png" class="settings-icon" />
+            <a href="#"
+              >Display & Accessibility
+              <img src="./images/arrow.png" width="10px"
+            /></a>
+          </div>
+
+          <div class="settings-links">
+            <img src="./images/logout.png" class="settings-icon" />
+            <a href="#">Logout <img src="./images/arrow.png" width="10px" /></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- profile page------------- -->
+    <div style="width: 80%; margin: auto">
+      <div class="profile-container">
+        <img src="./images/cover.png" class="cover-img" />
+        <div class="profile-details">
+          <div class="pd-left">
+            <div class="pd-row">
+              <img src="./images/profile.png" class="pd-image" />
+              <div>
+                <h3>Jack HArry</h3>
+                <p>140 Friends - 20 metual</p>
+                <img src="./images/member-1.png" />
+                <img src="./images/member-2.png" />
+                <img src="./images/member-3.png" />
+                <img src="./images/member-4.png" />
+              </div>
+            </div>
+          </div>
+          <div class="pd-right">
+            <button type="button">
+              <img src="./images/add-friends.png" alt="" />Friendd
+            </button>
+            <button type="button">
+              <img src="./images/message.png" alt="" />Message
+            </button>
+            <br />
+            <a href=""><img src="./images/more.png" alt="" /></a>
+          </div>
+        </div>
+
+        <div class="profile-info">
+          <div class="info-col">
+            <div class="profile-intro">
+              <h3>Intro</h3>
+              <p class="intro-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Facilis, eligendi!adipisicing elit. Facilis, eligendi!
+                <img src="./images/feeling.png" alt="" />
+              </p>
+              <hr />
+              <ul>
+                <li>
+                  <img src="./images/profile-job.png" /> Director at 88media Ltg
+                </li>
+                <li>
+                  <img src="./images/profile-study.png" alt="" /> Director at
+                  88media Ltg
+                </li>
+                <li>
+                  <img src="./images/profile-study.png" alt="" />Director at
+                  88media Ltg
+                </li>
+                <li>
+                  <img src="./images/profile-home.png" alt="" />Director at
+                  88media Ltg
+                </li>
+                <li>
+                  <img src="./images/profile-location.png" alt="" />Director at
+                  88media Ltg
+                </li>
+              </ul>
+            </div>
+
+            <div class="profile-intro">
+              <div class="title-box">
+                <h3>Photos</h3>
+                <a href="">All Photos</a>
+              </div>
+
+              <div class="photo-box">
+                <div><img src="./images/photo1.png" alt="" /></div>
+                <div><img src="./images/photo2.png" alt="" /></div>
+                <div><img src="./images/photo3.png" alt="" /></div>
+                <div><img src="./images/photo4.png" alt="" /></div>
+                <div><img src="./images/photo5.png" alt="" /></div>
+                <div><img src="./images/photo6.png" alt="" /></div>
+              </div>
+            </div>
+
+            <div class="profile-intro">
+              <div class="title-box">
+                <h3>Friends</h3>
+                <a href="">All Friends</a>
+              </div>
+              <p>110 (10 mutual)</p>
+              <div class="friends-box">
+                <div>
+                  <img src="./images/member-1.png" alt="" />
+                  <p>Francis L</p>
+                </div>
+                <div>
+                  <img src="./images/member-2.png" alt="" />
+                  <p>Francis L</p>
+                </div>
+                <div>
+                  <img src="./images/member-3.png" alt="" />
+                  <p>Francis L</p>
+                </div>
+                <div>
+                  <img src="./images/member-4.png" alt="" />
+                  <p>Francis L</p>
+                </div>
+                <div>
+                  <img src="./images/member-5.png" alt="" />
+                  <p>Francis L</p>
+                </div>
+                <div>
+                  <img src="./images/member-6.png" alt="" />
+                  <p>Francis L</p>
+                </div>
+                <div>
+                  <img src="./images/member-7.png" alt="" />
+                  <p>Francis L</p>
+                </div>
+                <div>
+                  <img src="./images/member-8.png" alt="" />
+                  <p>Francis L</p>
+                </div>
+                <div>
+                  <img src="./images/member-9.png" alt="" />
+                  <p>Francis L</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="post-col">
+            <div class="write-post-container">
+              <div class="user-profile">
+                <img src="./images/profile-pic.png" alt="" />
+                <div>
+                  <p>Alixe Mixian</p>
+                  <small>public <i class="bi bi-caret-down-fill"></i></small>
+                </div>
+              </div>
+
+              <div class="post-input-container">
+                <textarea
+                  rows="3"
+                  placeholder="what's on your mind, Alix?"
+                ></textarea>
+                <div class="add-post-links">
+                  <a href="#"
+                    ><img src="./images/live-video.png" alt="" />Live Video</a
+                  >
+                  <a href="#"
+                    ><img src="./images/photo.png" alt="" /> Photo/Video</a
+                  >
+                  <a href="#"
+                    ><img src="./images/feeling.png" alt="" />
+                    Feling/Activity</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="post-container">
+              <div class="post-row">
+                <div class="user-profile">
+                  <img src="./images/profile-pic.png" alt="" />
+                  <div class="data-span">
+                    <p>Alixe Mixian</p>
+                    <span>June 23 2024,12:30 am</span>
+                  </div>
+                </div>
+                <a href="#"><i class="bi bi-three-dots-vertical"></i></a>
+              </div>
+
+              <p class="post-text">
+                Lorem ipsum dolor sit amet
+                <span>@Easy Tutorials</span> adipisicing elit. Error labore quam
+                ab praesentium aspernatur. <a href="">#EasyTutorials</a>
+                <a href="">#YoutubeeChanel</a>
+              </p>
+              <img src="./images/feed-image-1.png" alt="" class="post-img" />
+              <div class="post-row">
+                <div class="activity-icons">
+                  <div>
+                    <div><img src="./images/like-blue.png" />120</div>
+                    <div><img src="./images/comments.png" />80</div>
+                    <div><img src="./images/share.png" />10</div>
+                  </div>
+                </div>
+                <div class="post-profile-icon">
+                  <img src="./images/profile-pic.png" alt="" />
+                  <i class="bi bi-caret-down-fill"></i>
+                </div>
+              </div>
+            </div>
+            <div class="post-container">
+              <div class="post-row">
+                <div class="user-profile">
+                  <img src="./images/profile-pic.png" alt="" />
+                  <div class="data-span">
+                    <p>Alixe Mixian</p>
+                    <span>June 23 2024,12:30 am</span>
+                  </div>
+                </div>
+                <a href="#"><i class="bi bi-three-dots-vertical"></i></a>
+              </div>
+
+              <p class="post-text">
+                Lorem ipsum dolor sit amet
+                <span>@Easy Tutorials</span> adipisicing elit. Error labore quam
+                ab praesentium aspernatur. <a href="">#EasyTutorials</a>
+                <a href="">#YoutubeeChanel</a>
+              </p>
+              <img src="./images/feed-image-2.png" alt="" class="post-img" />
+              <div class="post-row">
+                <div class="activity-icons">
+                  <div>
+                    <div><img src="./images/like.png" />120</div>
+                    <div><img src="./images/comments.png" />80</div>
+                    <div><img src="./images/share.png" />10</div>
+                  </div>
+                </div>
+                <div class="post-profile-icon">
+                  <img src="./images/profile-pic.png" alt="" />
+                  <i class="bi bi-caret-down-fill"></i>
+                </div>
+              </div>
+            </div>
+            <div class="post-container">
+              <div class="post-row">
+                <div class="user-profile">
+                  <img src="./images/profile-pic.png" alt="" />
+                  <div class="data-span">
+                    <p>Alixe Mixian</p>
+                    <span>June 23 2024,12:30 am</span>
+                  </div>
+                </div>
+                <a href="#"><i class="bi bi-three-dots-vertical"></i></a>
+              </div>
+
+              <p class="post-text">
+                Lorem ipsum dolor sit amet
+                <span>@Easy Tutorials</span> adipisicing elit. Error labore quam
+                ab praesentium aspernatur. <a href="">#EasyTutorials</a>
+                <a href="">#YoutubeeChanel</a>
+              </p>
+              <img src="./images/feed-image-3.png" alt="" class="post-img" />
+              <div class="post-row">
+                <div class="activity-icons">
+                  <div>
+                    <div><img src="./images/like.png" />120</div>
+                    <div><img src="./images/comments.png" />80</div>
+                    <div><img src="./images/share.png" />10</div>
+                  </div>
+                </div>
+                <div class="post-profile-icon">
+                  <img src="./images/profile-pic.png" alt="" />
+                  <i class="bi bi-caret-down-fill"></i>
+                </div>
+              </div>
+            </div>
+            <div class="post-container">
+              <div class="post-row">
+                <div class="user-profile">
+                  <img src="./images/profile-pic.png" alt="" />
+                  <div class="data-span">
+                    <p>Alixe Mixian</p>
+                    <span>June 23 2024,12:30 am</span>
+                  </div>
+                </div>
+                <a href="#"><i class="bi bi-three-dots-vertical"></i></a>
+              </div>
+
+              <p class="post-text">
+                Lorem ipsum dolor sit amet
+                <span>@Easy Tutorials</span> adipisicing elit. Error labore quam
+                ab praesentium aspernatur. <a href="">#EasyTutorials</a>
+                <a href="">#YoutubeeChanel</a>
+              </p>
+              <img src="./images/feed-image-4.png" alt="" class="post-img" />
+              <div class="post-row">
+                <div class="activity-icons">
+                  <div>
+                    <div><img src="./images/like.png" />120</div>
+                    <div><img src="./images/comments.png" />80</div>
+                    <div><img src="./images/share.png" />10</div>
+                  </div>
+                </div>
+                <div class="post-profile-icon">
+                  <img src="./images/profile-pic.png" alt="" />
+                  <i class="bi bi-caret-down-fill"></i>
+                </div>
+              </div>
+            </div>
+            <div class="post-container">
+              <div class="post-row">
+                <div class="user-profile">
+                  <img src="./images/profile-pic.png" alt="" />
+                  <div class="data-span">
+                    <p>Alixe Mixian</p>
+                    <span>June 23 2024,12:30 am</span>
+                  </div>
+                </div>
+                <a href="#"><i class="bi bi-three-dots-vertical"></i></a>
+              </div>
+
+              <p class="post-text">
+                Lorem ipsum dolor sit amet
+                <span>@Easy Tutorials</span> adipisicing elit. Error labore quam
+                ab praesentium aspernatur. <a href="">#EasyTutorials</a>
+                <a href="">#YoutubeeChanel</a>
+              </p>
+              <img src="./images/feed-image-5.png" alt="" class="post-img" />
+              <div class="post-row">
+                <div class="activity-icons">
+                  <div>
+                    <div><img src="./images/like.png" />120</div>
+                    <div><img src="./images/comments.png" />80</div>
+                    <div><img src="./images/share.png" />10</div>
+                  </div>
+                </div>
+                <div class="post-profile-icon">
+                  <img src="./images/profile-pic.png" alt="" />
+                  <i class="bi bi-caret-down-fill"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>2024 Social media application</p>
+    </footer>
+
+    <script src="./js.js"></script>
+  </body>
+</html>
